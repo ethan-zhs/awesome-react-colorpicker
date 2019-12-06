@@ -1,9 +1,11 @@
 {
   "name": "awesome-react-colorpicker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a color picker components",
-  "github": "https://github.com/ethan-zhs/awesome-react-colorpicker",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "rimraf ./dist&&rimraf ./index.js&&webpack --config config/webpack.prod.config.js",
