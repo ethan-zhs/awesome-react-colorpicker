@@ -1,16 +1,17 @@
 {
   "name": "awesome-react-colorpicker",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "a color picker components",
+  "github": "https://github.com/ethan-zhs/awesome-react-colorpicker",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "rimraf ./dist&&rimraf ./index.js&&webpack --config config/webpack.prod.config.js",
     "pub": "npm run build && npm publish"
   },
   "keywords": ["color", "colorPicker", "react", "hsb/hsv/rgb", "color-convert"],
-  "author": "",
-  "license": "ISC",
+  "author": "ethan-zhs",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
