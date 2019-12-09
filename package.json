@@ -1,6 +1,6 @@
 {
   "name": "awesome-react-colorpicker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a color picker components",
   "main": "dist/index.js",
   "files": [
