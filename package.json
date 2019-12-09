@@ -1,6 +1,6 @@
 {
   "name": "awesome-react-colorpicker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a color picker components",
   "main": "dist/index.js",
   "files": [
@@ -14,6 +14,10 @@
   "keywords": ["color", "colorPicker", "react", "hsb/hsv/rgb", "color-convert"],
   "author": "ethan-zhs",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethan-zhs/awesome-react-colorpicker"
+  },
   "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
