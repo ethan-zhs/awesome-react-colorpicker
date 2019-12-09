@@ -10,8 +10,9 @@ npm install awesome-react-colorpicker --save
 ## Import the Component
 
 ```js
-import React from 'react'
-import ColorPicker from 'awesome-react-colorpicker'
+import React from 'react';
+import ColorPicker from 'awesome-react-colorpicker';
+import 'awesome-react-colorpicker/dist/colorpicker.min.css';
 
 class Component extends React.Component {
 
@@ -29,10 +30,12 @@ class Component extends React.Component {
 ```
 
 ## proptypes
+```
 * color
 * globalColor
 * onChange
 * addGlobalColor
+```
 
 ### color
 - string
