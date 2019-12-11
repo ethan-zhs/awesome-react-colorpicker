@@ -6,8 +6,6 @@ import colorFormat from './colorFormat';
 
 import './index.less';
 
-
-
 class ColorPicker extends React.Component {
     static colorFormat = colorFormat;
     constructor(props) {
